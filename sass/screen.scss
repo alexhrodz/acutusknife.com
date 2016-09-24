@@ -53,8 +53,33 @@
 
 #description {
   background-color: white;
+  color: black;
   .description {
     margin-top: 70px;
+    h2 {
+      color: black;
+      font-weight: 600;
+    }
+    h2, p {
+      margin-bottom: 20px;
+    }
+    .sale {
+      margin-bottom: 20px;
+      .sale-span {
+        span {
+          background-color: #e3e3e3;
+          color: red;
+          font-weight: 600;
+          padding: 3px 10px;
+          margin-right: 50px;
+        }
+      }
+      a {
+        background-color: #9ED723;
+        border: solid 2px #419D13;
+        padding: 5px 60px;
+      }
+    }
   }
 }
 
@@ -63,6 +88,16 @@
   color: black;
   .instruction {
     margin: 80px auto;
+    .col-md-8 {
+      padding-left: 40px;
+    }
+  }
+  h4 {
+    font-weight: 600;
+    color: black;
+  }
+  h4, ul, p {
+    margin-bottom: 20px;
   }
 }
 
