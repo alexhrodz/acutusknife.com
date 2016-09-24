@@ -1,0 +1,157 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/screen.scss */
+#slider {
+  display: block;
+  width: 100%;
+  height: 600px;
+  background-image: url("../assets/img/slider1.jpg");
+}
+/* line 13, ../sass/screen.scss */
+#slider .logo {
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-bottom: solid 2px white;
+}
+/* line 17, ../sass/screen.scss */
+#slider .logo a {
+  color: white;
+  margin-top: 20px;
+}
+/* line 21, ../sass/screen.scss */
+#slider .logo .fa {
+  border: solid 4px white;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 15px;
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+/* line 30, ../sass/screen.scss */
+#slider .logo :hover {
+  color: #2a6496;
+  border-color: #2a6496;
+}
+/* line 35, ../sass/screen.scss */
+#slider .nav {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* line 42, ../sass/screen.scss */
+#slider .nav a {
+  margin: auto 10px;
+}
+/* line 45, ../sass/screen.scss */
+#slider .nav :hover {
+  color: #87B672;
+}
+/* line 48, ../sass/screen.scss */
+#slider .nav .active {
+  color: #87B672;
+}
+
+/* line 54, ../sass/screen.scss */
+#description {
+  background-color: white;
+}
+/* line 56, ../sass/screen.scss */
+#description .description {
+  margin-top: 70px;
+}
+
+/* line 61, ../sass/screen.scss */
+#instruction {
+  background-color: #E4E4E4;
+  color: black;
+}
+/* line 64, ../sass/screen.scss */
+#instruction .instruction {
+  margin: 80px auto;
+}
+
+/* line 69, ../sass/screen.scss */
+.footer {
+  background-color: #333333;
+  color: white;
+  font-weight: 600;
+}
+/* line 73, ../sass/screen.scss */
+.footer .col-md-6 {
+  margin: 30px auto;
+}
+/* line 76, ../sass/screen.scss */
+.footer .email {
+  text-align: right;
+}
