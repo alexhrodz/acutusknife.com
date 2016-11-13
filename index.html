@@ -18,6 +18,7 @@
 
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/screen.css">
+    <link rel="stylesheet" href="stylesheets/mobile.css">
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
@@ -39,20 +40,24 @@
         <section class="logo">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <a href="#" class="col-md-offset-1 col-md-10"><img src="assets/img/logo.png"></a>
-                        <a href="#" class="col-md-1 fa fa-facebook"></a>
+                    <div class="col-md-offset-1 col-md-10 col-xs-10 col-xs-offset-0 col-sm-10 col-sm-offset-0 div1">
+                        <a href="#"></a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="nav">
-                        <a href="#" class="active">home</a>
-                        <a href="#">contact</a>
-                        <a href="#">us</a>
+                    <div class="col-md-1 col-xs-2 col-sm-1 col-sm-offset-1 div2">
+                        <a href="#" class="fa fa-facebook"></a>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="container">
+            <div class="row">
+                <div class="nav">
+                    <a href="#">home</a>
+                    <a href="#">contact</a>
+                    <a href="#">us</a>
+                </div>
+            </div>
+        </div>
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
@@ -80,12 +85,12 @@
     <section id="description">
         <div class="container">
             <div class="row description">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                     <div id="myCarousel3" class="carousel slide">
                         <!-- Слайды карусели -->
 
                         <div class="row">
-                            <div class="col-xs-6 col-sm-9">
+                            <div class="">
                                 <div class="carousel-inner">
                                     <!-- 1 слайд -->
                                     <div class="item active">
@@ -107,7 +112,7 @@
                             </div>
 
 
-                            <div class="col-xs-6 col-sm-3">
+                            <div class="">
                                 <!-- Индикаторы карусели -->
                                 <ol class="carousel-indicators carousel-indicators-vertical">
                                     <li data-target="#myCarousel3" data-slide-to="0" class="active">
@@ -130,7 +135,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 other">
+                <div class="col-md-6 col-sm-12 other">
                     <h2>
                         Ceramic Knives Set - Acutus - 7-inch ceramic Chef's knife and 4-inch ceramic Paring knife with Gift Box - Black blade
                     </h2>
@@ -153,10 +158,10 @@
                         exchange or refund of the product price and applicable tax. Money
                         back guarantee.
                     </p>
-                    <div class="sale">
-                        <div class="sale-span">
-                            <span>Sale: $39.99</span>
-                            <a href="#">www</a>
+                    <div class="container sale">
+                        <div class="row sale-span">
+                            <span class="col-xs-12">Sale: $39.99</span>
+                            <a class="col-xs-12" href="#">www</a>
                         </div>
                     </div>
                 </div>
@@ -168,7 +173,7 @@
         <div class="container">
             <div class="row instruction">
                 <div class="col-md-4 block">
-                    <img src="assets/img/instruction.jpg" width="380" height="380">
+                    <!--<img src="assets/img/instruction.jpg" width="380" height="380"> -->
                 </div>
                 <div class="col-md-8">
                     <h4>
@@ -202,13 +207,13 @@
     </section>
 
 
-    <footer class="footer">
+    <footer id="footer">
         <div class="container">
             <div class="row">
-               <div class="col-md-6">
+               <div class="col-md-3 col-sm-4 col-xs-12 footer">
                    &copy; 2016 Acutus knives.
                </div>
-               <div class="col-md-6 email">
+               <div class="col-md-3 col-md-offset-6 col-xs-offset-4 col-sm-4 col-xs-12 footer">
                    support@acutusknife.com
                </div>
             </div>
