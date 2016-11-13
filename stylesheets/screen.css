@@ -1,0 +1,294 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/screen.scss */
+#slider {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+/* line 12, ../sass/screen.scss */
+#slider .logo {
+  position: absolute;
+  left: auto;
+  right: auto;
+  width: 100%;
+  z-index: 2;
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-bottom: solid 2px white;
+}
+/* line 21, ../sass/screen.scss */
+#slider .logo a {
+  color: white;
+}
+/* line 24, ../sass/screen.scss */
+#slider .logo .div1 {
+  display: block;
+  height: 53px;
+  margin-top: 12px;
+  background: url(../assets/img/logo.png) no-repeat;
+  background-position: center;
+}
+/* line 31, ../sass/screen.scss */
+#slider .logo .div2 {
+  border-radius: 50%;
+  border: solid 4px white;
+  height: 40px;
+  width: 40px;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+/* line 38, ../sass/screen.scss */
+#slider .logo .div2 .fa {
+  margin-top: 8px;
+  margin-left: -2px;
+}
+/* line 43, ../sass/screen.scss */
+#slider .logo :hover {
+  color: #2a6496;
+  border-color: #2a6496;
+}
+/* line 48, ../sass/screen.scss */
+#slider .nav {
+  position: absolute;
+  z-index: 2;
+  text-transform: uppercase;
+  top: 90px;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* line 55, ../sass/screen.scss */
+#slider .nav a {
+  margin: auto 10px;
+  color: white;
+}
+/* line 59, ../sass/screen.scss */
+#slider .nav :hover {
+  color: #87B672;
+}
+/* line 62, ../sass/screen.scss */
+#slider .nav .active {
+  color: #87B672;
+}
+
+/* line 68, ../sass/screen.scss */
+#description {
+  color: black;
+}
+/* line 70, ../sass/screen.scss */
+#description .description {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+/* line 73, ../sass/screen.scss */
+#description .description h2 {
+  color: black;
+  font-weight: 600;
+}
+/* line 77, ../sass/screen.scss */
+#description .description h2, #description .description p {
+  margin-bottom: 20px;
+}
+/* line 80, ../sass/screen.scss */
+#description .description .sale {
+  margin-bottom: 20px;
+}
+/* line 83, ../sass/screen.scss */
+#description .description .sale .sale-span span {
+  background-color: #e3e3e3;
+  color: red;
+  font-weight: 600;
+  padding: 3px 10px;
+  margin-right: 50px;
+}
+/* line 91, ../sass/screen.scss */
+#description .description .sale a {
+  background-color: #9ED723;
+  border: solid 2px #419D13;
+  padding: 5px 60px;
+}
+
+/* line 102, ../sass/screen.scss */
+#instruction {
+  background-color: #E4E4E4;
+  color: black;
+}
+/* line 105, ../sass/screen.scss */
+#instruction .instruction {
+  margin: 80px auto;
+}
+/* line 108, ../sass/screen.scss */
+#instruction h4 {
+  font-weight: 600;
+  color: black;
+}
+/* line 112, ../sass/screen.scss */
+#instruction h4, #instruction ul, #instruction p {
+  margin-bottom: 20px;
+}
+/* line 115, ../sass/screen.scss */
+#instruction .block {
+  display: block;
+  opacity: 1;
+  transform: scale(1, 1);
+  transition-timing-function: ease-out;
+  transition-duration: 550ms;
+}
+/* line 122, ../sass/screen.scss */
+#instruction .block :hover {
+  transform: scale(1.4, 1.4);
+  transition-timing-function: ease-out;
+  transition-duration: 550ms;
+}
+
+/* line 130, ../sass/screen.scss */
+#footer {
+  background-color: #333333;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+/* line 135, ../sass/screen.scss */
+#footer .footer {
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 143, ../sass/screen.scss */
+  #slider .logo .div1 {
+    height: 23px;
+    margin-top: 23px;
+    background-size: cover;
+  }
+
+  /* line 153, ../sass/screen.scss */
+  #description .description .sale {
+    text-align: center;
+  }
+  /* line 156, ../sass/screen.scss */
+  #description .description .sale .sale-span span {
+    margin: 20px auto;
+    display: block;
+  }
+  /* line 161, ../sass/screen.scss */
+  #description .description .sale a {
+    margin: 20px auto;
+    display: block;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 426px) {
+  /* line 174, ../sass/screen.scss */
+  #slider .logo .div1 {
+    height: 30px;
+    margin-top: 23px;
+    background-size: cover;
+  }
+
+  /* line 184, ../sass/screen.scss */
+  #description .description .sale {
+    text-align: center;
+  }
+  /* line 187, ../sass/screen.scss */
+  #description .description .sale .sale-span span {
+    margin: 20px auto;
+    display: block;
+  }
+  /* line 192, ../sass/screen.scss */
+  #description .description .sale a {
+    margin: 20px auto;
+    display: block;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  /* line 203, ../sass/screen.scss */
+  .other {
+    border-left: solid 2px #B1B1B1;
+  }
+
+  /* line 207, ../sass/screen.scss */
+  .carousel-indicators-vertical {
+    text-align: right;
+    top: 0;
+  }
+  /* line 210, ../sass/screen.scss */
+  .carousel-indicators-vertical li {
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 0;
+    margin-bottom: 7px;
+    border: none;
+  }
+
+  /* line 223, ../sass/screen.scss */
+  #instruction .instruction .col-md-8 {
+    padding-left: 40px;
+  }
+}
