@@ -70,10 +70,8 @@
 #description {
   color: black;
   .description {
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin: 70px auto 30px;
     h2 {
-      color: black;
       font-weight: 600;
     }
     h2, p {
@@ -81,14 +79,12 @@
     }
     .sale {
       margin-bottom: 20px;
-      .sale-span {
-        span {
-          background-color: #e3e3e3;
-          color: red;
-          font-weight: 600;
-          padding: 3px 10px;
-          margin-right: 50px;
-        }
+      span {
+        background-color: #e3e3e3;
+        color: red;
+        font-weight: 600;
+        padding: 3px 10px;
+        margin-right: 50px;
       }
       a {
         background-color: #9ED723;
@@ -96,7 +92,17 @@
         padding: 5px 60px;
       }
     }
+    .carousel-indicators {
+      margin: 0;
+      padding: 0;
+      .active {
+        width: 90px;
+        height: 90px;
+        margin: 0;
+        padding: 0;
+      }
 
+    }
   }
 
 }
@@ -206,29 +212,21 @@
   .other {
     border-left: solid 2px #B1B1B1;
   }
-
   .carousel-indicators-vertical {
     text-align: right;
     top:0;
     li {
-      display: block;
-
       width: 90px;
       height: 90px;
       border-radius: 0;
-      margin-bottom: 7px;
       border: none;
     }
   }
-
-    #instruction {
-      .instruction {
-        .col-md-8 {
-          padding-left: 40px;
-        }
-      }
+  .instruction {
+    .col-md-8 {
+      padding-left: 40px;
     }
-
+  }
 }
 
 
