@@ -123,44 +123,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 90px;
   font-weight: 600;
   font-size: 18px;
+  text-align: center;
 }
-/* line 55, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 #slider .nav a {
   margin: auto 10px;
   color: white;
 }
-/* line 59, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 #slider .nav :hover {
   color: #87B672;
 }
-/* line 62, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 #slider .nav .active {
   color: #87B672;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 #description {
   color: black;
 }
-/* line 70, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 #description .description {
   margin-top: 70px;
   margin-bottom: 30px;
 }
-/* line 73, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 #description .description h2 {
   color: black;
   font-weight: 600;
 }
-/* line 77, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 #description .description h2, #description .description p {
   margin-bottom: 20px;
 }
-/* line 80, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 #description .description .sale {
   margin-bottom: 20px;
 }
-/* line 83, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 #description .description .sale .sale-span span {
   background-color: #e3e3e3;
   color: red;
@@ -168,32 +169,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 3px 10px;
   margin-right: 50px;
 }
-/* line 91, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 #description .description .sale a {
   background-color: #9ED723;
   border: solid 2px #419D13;
   padding: 5px 60px;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 #instruction {
   background-color: #E4E4E4;
   color: black;
 }
-/* line 105, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 #instruction .instruction {
   margin: 80px auto;
 }
-/* line 108, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 #instruction h4 {
   font-weight: 600;
   color: black;
 }
-/* line 112, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 #instruction h4, #instruction ul, #instruction p {
   margin-bottom: 20px;
 }
-/* line 115, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 #instruction .block {
   display: block;
   opacity: 1;
@@ -201,83 +202,83 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transition-timing-function: ease-out;
   transition-duration: 550ms;
 }
-/* line 122, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 #instruction .block :hover {
   transform: scale(1.4, 1.4);
   transition-timing-function: ease-out;
   transition-duration: 550ms;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 #footer {
   background-color: #333333;
   color: white;
   font-weight: 600;
-  text-align: center;
 }
-/* line 135, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #footer .footer {
+  text-align: center;
   margin: 20px auto;
 }
 
 @media only screen and (max-width: 375px) {
-  /* line 143, ../sass/screen.scss */
+  /* line 146, ../sass/screen.scss */
   #slider .logo .div1 {
     height: 23px;
     margin-top: 23px;
     background-size: cover;
   }
 
-  /* line 153, ../sass/screen.scss */
+  /* line 156, ../sass/screen.scss */
   #description .description .sale {
     text-align: center;
   }
-  /* line 156, ../sass/screen.scss */
+  /* line 159, ../sass/screen.scss */
   #description .description .sale .sale-span span {
     margin: 20px auto;
     display: block;
   }
-  /* line 161, ../sass/screen.scss */
+  /* line 164, ../sass/screen.scss */
   #description .description .sale a {
     margin: 20px auto;
     display: block;
   }
 }
 @media only screen and (min-width: 376px) and (max-width: 426px) {
-  /* line 174, ../sass/screen.scss */
+  /* line 177, ../sass/screen.scss */
   #slider .logo .div1 {
     height: 30px;
     margin-top: 23px;
     background-size: cover;
   }
 
-  /* line 184, ../sass/screen.scss */
+  /* line 187, ../sass/screen.scss */
   #description .description .sale {
     text-align: center;
   }
-  /* line 187, ../sass/screen.scss */
+  /* line 190, ../sass/screen.scss */
   #description .description .sale .sale-span span {
     margin: 20px auto;
     display: block;
   }
-  /* line 192, ../sass/screen.scss */
+  /* line 195, ../sass/screen.scss */
   #description .description .sale a {
     margin: 20px auto;
     display: block;
   }
 }
 @media only screen and (min-width: 1023px) {
-  /* line 203, ../sass/screen.scss */
+  /* line 206, ../sass/screen.scss */
   .other {
     border-left: solid 2px #B1B1B1;
   }
 
-  /* line 207, ../sass/screen.scss */
+  /* line 210, ../sass/screen.scss */
   .carousel-indicators-vertical {
     text-align: right;
     top: 0;
   }
-  /* line 210, ../sass/screen.scss */
+  /* line 213, ../sass/screen.scss */
   .carousel-indicators-vertical li {
     display: block;
     width: 90px;
@@ -287,7 +288,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border: none;
   }
 
-  /* line 223, ../sass/screen.scss */
+  /* line 226, ../sass/screen.scss */
   #instruction .instruction .col-md-8 {
     padding-left: 40px;
   }
