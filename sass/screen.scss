@@ -5,30 +5,39 @@
 
 @import "compass/reset";
 
+header {
+
+}
+
 #slider {
-  display: block;
+
+
+  background-color: #E4E4E4;
   position: relative;
-  overflow: hidden;
+  .container{
+
+  }
   .logo {
     position: absolute;
-    left: auto;
-    right: auto;
+    top: 0;
     width: 100%;
     z-index: 2;
     height: 75px;
     background-color: rgba(0, 0 , 0, 0.6);
     border-bottom: solid 2px white;
+
     a {
       color: white;
       }
     .div1 {
-      display: block;
+      display: inline-block;
       height: 53px;
       margin-top: 12px;
       background: url(../assets/img/logo.png) no-repeat;
       background-position: center;
     }
     .div2 {
+      display: inline-block;
       border-radius: 50%;
       border: solid 4px white;
       height: 40px;
@@ -47,9 +56,13 @@
   }
   .nav {
     position: absolute;
-    z-index: 2;
-    text-transform: uppercase;
+    margin: auto;
     top: 90px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
     text-align: center;
@@ -68,43 +81,33 @@
 
 
 #description {
+  position: relative;
   color: black;
-  .description {
-    margin: 70px auto 30px;
-    h2 {
+  margin: 70px auto 30px;
+  .other {
+    position: relative;
+  }
+  h2 {
+    font-weight: 600;
+  }
+  h2, p {
+    margin-bottom: 20px;
+  }
+  .sale {
+    margin-bottom: 20px;
+    span {
+      background-color: #e3e3e3;
+      color: red;
       font-weight: 600;
+      padding: 3px 10px;
+      margin-right: 50px;
     }
-    h2, p {
-      margin-bottom: 20px;
-    }
-    .sale {
-      margin-bottom: 20px;
-      span {
-        background-color: #e3e3e3;
-        color: red;
-        font-weight: 600;
-        padding: 3px 10px;
-        margin-right: 50px;
-      }
-      a {
-        background-color: #9ED723;
-        border: solid 2px #419D13;
-        padding: 5px 60px;
-      }
-    }
-    .carousel-indicators {
-      margin: 0;
-      padding: 0;
-      .active {
-        width: 90px;
-        height: 90px;
-        margin: 0;
-        padding: 0;
-      }
-
+    a {
+      background-color: #9ED723;
+      border: solid 2px #419D13;
+      padding: 5px 60px;
     }
   }
-
 }
 
 #instruction {
@@ -208,19 +211,30 @@
 
 }
 
-@media only screen and  (min-width: 1023px) {
+@media only screen and  (min-width: 1024px) {
   .other {
     border-left: solid 2px #B1B1B1;
   }
-  .carousel-indicators-vertical {
+  .carousel-indicators {
     text-align: right;
     top:0;
+    margin: 0;
+    padding: 0;
     li {
       width: 90px;
       height: 90px;
       border-radius: 0;
       border: none;
     }
+
+    .active {
+      width: 90px;
+      height: 90px;
+      margin: 0;
+      padding: 0;
+    }
+
+
   }
   .instruction {
     .col-md-8 {
@@ -229,5 +243,40 @@
   }
 }
 
+@media only screen and  (max-width: 1023px) {
+  #description {
+    margin-top: 30px;
+    .carousel-inner {
+      display: inline-block;
+      position: relative;
+      img {
+        margin: 0 auto;
+      }
+    }
+    .carousel-indicators{
+      position: relative;
+      text-align: right;
+      left: 333px;
+      top: 15px;
+
+      li {
+        width: 90px;
+        height: 90px;
+        border-radius: 0;
+        border: none;
+      }
+
+      .active {
+        width: 90px;
+        height: 90px;
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .other {
+      margin-top: 25px;
+    }
+  }
+}
 
 
