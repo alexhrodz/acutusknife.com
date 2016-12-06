@@ -315,55 +315,73 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-size: cover;
   }
 
-  /* line 243, ../sass/screen.scss */
+  /* line 242, ../sass/screen.scss */
+  #description {
+    margin-bottom: 0;
+  }
+  /* line 244, ../sass/screen.scss */
   #description .sale {
     text-align: center;
   }
-  /* line 245, ../sass/screen.scss */
+  /* line 246, ../sass/screen.scss */
   #description .sale span {
     margin: 20px auto;
     display: block;
   }
-  /* line 249, ../sass/screen.scss */
+  /* line 250, ../sass/screen.scss */
   #description .sale a {
     margin: 20px auto;
     display: block;
   }
 
-  /* line 257, ../sass/screen.scss */
+  /* line 258, ../sass/screen.scss */
   .footer .col-xs-12 {
     margin-bottom: 10px;
   }
+
+  /* line 265, ../sass/screen.scss */
+  #instruction .instruction {
+    margin: 40px auto 10px;
+  }
 }
 @media only screen and (max-width: 375px) {
-  /* line 268, ../sass/screen.scss */
+  /* line 276, ../sass/screen.scss */
   #slider .logo .div1 {
     height: 23px;
     margin-top: 23px;
     background-size: cover;
   }
 
-  /* line 277, ../sass/screen.scss */
+  /* line 285, ../sass/screen.scss */
+  #instruction .instruction {
+    margin: 40px auto 10px;
+  }
+
+  /* line 290, ../sass/screen.scss */
+  #description {
+    margin-bottom: 0;
+  }
+  /* line 292, ../sass/screen.scss */
   #description .sale {
     text-align: center;
   }
-  /* line 279, ../sass/screen.scss */
+  /* line 294, ../sass/screen.scss */
   #description .sale span {
     margin: 20px auto;
     display: block;
   }
-  /* line 283, ../sass/screen.scss */
+  /* line 298, ../sass/screen.scss */
   #description .sale a {
     margin: 20px auto;
     display: block;
   }
-  /* line 289, ../sass/screen.scss */
+  /* line 304, ../sass/screen.scss */
   #description .carousel-indicators {
     width: 70%;
     left: 15%;
   }
 
-  /* line 296, ../sass/screen.scss */
+  /* line 311, ../sass/screen.scss */
   .footer .col-xs-12 {
     margin-bottom: 10px;
   }

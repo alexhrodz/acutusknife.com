@@ -240,6 +240,7 @@ header {
   }
 
   #description {
+    margin-bottom: 0;
     .sale {
       text-align: center;
       span {
@@ -259,6 +260,13 @@ header {
     }
   }
 
+
+  #instruction {
+    .instruction {
+      margin: 40px auto 10px;
+    }
+  }
+
 }
 
 
@@ -273,7 +281,14 @@ header {
     }
   }
 
+  #instruction {
+    .instruction {
+      margin: 40px auto 10px;
+    }
+  }
+
   #description {
+    margin-bottom: 0;
     .sale {
       text-align: center;
       span {
