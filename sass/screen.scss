@@ -124,8 +124,9 @@ header {
     margin-bottom: 20px;
   }
   .block {
-
-    display: block;
+    max-width: 380px;
+    padding: 0;
+    margin: 0 auto;
     opacity: 1;
     transform: scale(1,1);
     transition-timing-function: ease-out;
@@ -149,67 +150,9 @@ header {
   }
  }
 
-@media only screen and (max-width: 375px) {
-  #slider {
-    .logo {
-      .div1 {
-        height: 23px;
-        margin-top: 23px;
-        background-size: cover;
-      }
-    }
-  }
 
-  #description {
-    .description {
-      .sale {
-        text-align: center;
-        .sale-span {
-          span {
-            margin: 20px auto;
-            display: block;
-          }
-        }
-        a {
-          margin: 20px auto;
-          display: block;
-        }
-      }
-    }
-  }
 
-}
 
-@media only screen and (min-width: 376px) and (max-width: 426px) {
-  #slider {
-    .logo {
-      .div1 {
-        height: 30px;
-        margin-top: 23px;
-        background-size: cover;
-      }
-    }
-  }
-
-  #description {
-    .description {
-      .sale {
-        text-align: center;
-        .sale-span {
-          span {
-            margin: 20px auto;
-            display: block;
-          }
-        }
-        a {
-          margin: 20px auto;
-          display: block;
-        }
-      }
-    }
-  }
-
-}
 
 @media only screen and  (min-width: 1024px) {
   .other {
@@ -253,17 +196,23 @@ header {
         margin: 0 auto;
       }
     }
-    .carousel-indicators{
+    .carousel-indicators-1 {
+      margin-top: 30px;
+    }
+    .carousel-indicators {
+      display: inline-block;
       position: relative;
-      text-align: right;
-      left: 333px;
-      top: 15px;
-
+      text-align: center;
+      left: 0;
+      margin-left: 0;
+      width: 100%;
       li {
+        display: inline-block;
         width: 90px;
         height: 90px;
         border-radius: 0;
         border: none;
+        text-align: right;
       }
 
       .active {
@@ -272,11 +221,81 @@ header {
         margin: 0;
         padding: 0;
       }
-    }
-    .other {
-      margin-top: 25px;
+      img {
+        text-indent: 0;
+      }
     }
   }
 }
 
+@media only screen and (min-width: 376px) and (max-width: 426px) {
+  #slider {
+    .logo {
+      .div1 {
+        height: 30px;
+        margin-top: 23px;
+        background-size: cover;
+      }
+    }
+  }
+
+  #description {
+    .sale {
+      text-align: center;
+      span {
+        margin: 20px auto;
+        display: block;
+      }
+      a {
+        margin: 20px auto;
+        display: block;
+      }
+    }
+  }
+
+  .footer {
+    .col-xs-12 {
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+  #slider {
+    .logo {
+      .div1 {
+        height: 23px;
+        margin-top: 23px;
+        background-size: cover;
+      }
+    }
+  }
+
+  #description {
+    .sale {
+      text-align: center;
+      span {
+        margin: 20px auto;
+        display: block;
+      }
+      a {
+        margin: 20px auto;
+        display: block;
+      }
+    }
+
+    .carousel-indicators {
+      width: 70%;
+      left: 15%;
+    }
+  }
+
+  .footer {
+    .col-xs-12 {
+      margin-bottom: 10px;
+    }
+  }
+}
 
